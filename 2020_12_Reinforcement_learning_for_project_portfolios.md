@@ -1,3 +1,15 @@
+# Monthly portfolio decisions — December 2020 working note
+
+**Reading note added 1 October 2026.** The original text below is retained unchanged. Its useful question is how decisions, project progress and new information interact between monthly reviews. Several sections were left as headings, and proposed benefits are ambitions rather than tested results.
+
+- The accompanying notebooks select actions randomly using hand-written transitions and rewards. They do not learn a policy or model the value of investigation/assurance. [The reading guide explains both variants and their defects](README.md#what-the-notebooks-actually-do).
+- “Information & Decision Analytics” and reinforcement learning are not interchangeable labels for every sequential decision problem. No reinforcement-learning update is implemented here.
+- Changing the review cadence is different from changing a learning step-size `alpha`. The assertions “stationary: yes” and “ergodic: no” are not justified by the note. The promised optimisation and management benefits remain unvalidated. See the [terminology and source clarification](README.md#how-to-read-the-original-claims).
+
+[Read the guide](README.md) · [Methods in the Library](https://lawrencerowland.github.io/ML-for-portfolios.html#monthly-portfolio-decisions)
+
+---
+
 # 0 Business need
 
 Focus: **The monthly portfolio review**
